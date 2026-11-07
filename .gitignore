@@ -1,0 +1,11 @@
+# Archives
+*.zip
+*.tar.gz
+
+# Python
+__pycache__/
+*.py[cod]
+
+# OS generated
+.DS_Store
+Thumbs.db
