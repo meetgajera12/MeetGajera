@@ -1,0 +1,80 @@
+<svg width="900" height="260" viewBox="0 0 900 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Meet Gajera — Software Engineer, Systems Thinker, Builder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f0c29"/>
+      <stop offset="55%" stop-color="#302b63"/>
+      <stop offset="100%" stop-color="#24243e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="88%" cy="8%" r="55%">
+      <stop offset="0%" stop-color="#64ffda" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#64ffda" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M 26 0 L 0 0 0 26" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+    <clipPath id="outer">
+      <rect width="900" height="260" rx="18"/>
+    </clipPath>
+    <clipPath id="clipRow1">
+      <rect x="40" y="62" width="0" height="26">
+        <animate attributeName="width" from="0" to="234" dur="0.45s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clipRow2">
+      <rect x="40" y="98" width="0" height="44">
+        <animate attributeName="width" from="0" to="236" dur="0.55s" begin="0.95s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clipRow3">
+      <rect x="40" y="148" width="0" height="26">
+        <animate attributeName="width" from="0" to="276" dur="0.5s" begin="1.85s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clipRow4">
+      <rect x="40" y="180" width="0" height="28">
+        <animate attributeName="width" from="0" to="482" dur="0.8s" begin="2.65s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#outer)">
+    <rect width="900" height="260" fill="url(#bg)"/>
+    <rect width="900" height="260" fill="url(#grid)"/>
+    <rect width="900" height="260" fill="url(#glow)"/>
+
+    <!-- title bar -->
+    <rect width="900" height="40" fill="#000000" fill-opacity="0.18"/>
+    <circle cx="28" cy="20" r="6" fill="#ff5f56"/>
+    <circle cx="50" cy="20" r="6" fill="#ffbd2e"/>
+    <circle cx="72" cy="20" r="6" fill="#27c93f"/>
+    <text x="450" y="25" text-anchor="middle" font-family="SFMono-Regular, Menlo, Consolas, 'Fira Code', monospace" font-size="12" fill="#8892b0">meet@github: ~ — zsh</text>
+
+    <g font-family="SFMono-Regular, Menlo, Consolas, 'Fira Code', monospace">
+      <g clip-path="url(#clipRow1)">
+        <text x="40" y="80" font-size="16" fill="#8892b0" textLength="234" lengthAdjust="spacingAndGlyphs">guest@github<tspan fill="#64ffda">:~$</tspan> whoami</text>
+      </g>
+
+      <g clip-path="url(#clipRow2)">
+        <text x="40" y="128" font-size="36" font-weight="700" fill="#eef1fb" textLength="236" lengthAdjust="spacingAndGlyphs">Meet Gajera</text>
+      </g>
+
+      <g clip-path="url(#clipRow3)">
+        <text x="40" y="166" font-size="16" fill="#8892b0" textLength="276" lengthAdjust="spacingAndGlyphs">guest@github<tspan fill="#64ffda">:~$</tspan> cat role.txt</text>
+      </g>
+
+      <g clip-path="url(#clipRow4)">
+        <text x="40" y="198" font-size="17" fill="#c5c9e0" textLength="390" lengthAdjust="spacingAndGlyphs">Data Science · AI · Builder</text>
+      </g>
+
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="3.55s" fill="freeze"/>
+        <text x="40" y="232" font-size="16" fill="#8892b0" textLength="150" lengthAdjust="spacingAndGlyphs">guest@github<tspan fill="#64ffda">:~$</tspan></text>
+        <rect x="198" y="219" width="10" height="18" fill="#64ffda">
+          <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.4;0.5;0.9;1" dur="1s" begin="3.55s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g>
+
+    <rect x="0.5" y="0.5" width="899" height="259" rx="17.5" fill="none" stroke="#64ffda" stroke-opacity="0.22"/>
+  </g>
+</svg>
