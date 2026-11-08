@@ -3,7 +3,7 @@
 ### Data Science & AI | Engineering Student | Building Intelligent Products
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=2563EB&center=true&vCenter=true&width=650&lines=Exploring+Data+Science+%26+AI;Building+Intelligent+AI+Applications;Turning+Ideas+Into+Real-World+Products" alt="Data Science and AI typing banner" />
+  <img src="./assets/meet_gajera_terminal_banner.gif" width="100%" alt="Meet Gajera — Data Science, AI and Builder" />
 </p>
 
 <p align="center">
