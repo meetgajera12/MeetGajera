@@ -3,12 +3,7 @@
 ### Data Science & AI | Engineering Student | Building Intelligent Products
 
 <p align="center">
-  <img src="./assets/meet_gajera_terminal_banner.gif" width="100%" alt="Meet Gajera — Data Science, AI and Builder" />
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=meetgajera12&label=Profile%20Views&color=2563eb&style=flat" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/meetgajera12?label=Followers&style=flat&color=2563eb" alt="GitHub followers" />
+  <img src="./assets/hero.svg" width="100%" alt="Meet Gajera — Data Science, AI and Builder" />
 </p>
 
 ---
