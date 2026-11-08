@@ -1,7 +1,3 @@
-# 👋 Hi, I'm Meet Gajera
-
-### Data Science & AI | Engineering Student | Building Intelligent Products
-
 <p align="center">
   <img src="./assets/hero.svg" width="100%" alt="Meet Gajera — Data Science, AI and Builder" />
 </p>
