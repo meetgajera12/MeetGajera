@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Meet Gajera — Data Science, AI and Builder" />
+  <img src="./assets/hero-v2.svg" width="100%" alt="Meet Gajera — Data Science, AI and Builder" />
 </p>
 
 ---
